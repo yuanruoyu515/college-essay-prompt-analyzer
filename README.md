@@ -39,6 +39,8 @@ Skill 还要求 AI **核实**题目原文、课程编号、教授、项目等学
 college-essay-prompt-analyzer/
 ├── college-essay-prompt-analyzer/
 │   └── SKILL.md                  # Skill 本体（Claude 与 ChatGPT 通用）
+├── dist/
+│   └── college-essay-prompt-analyzer.zip  # 上传到 claude.ai 的安装包
 ├── chatgpt/
 │   └── project-instructions.md   # 在 ChatGPT Project 中使用时粘贴的简短指令
 ├── examples/
@@ -51,7 +53,7 @@ college-essay-prompt-analyzer/
 
 **Claude 网页版 / 桌面版 / 手机 App（claude.ai）**
 需要 Pro、Max、Team 或 Enterprise 账户，并开启「Code execution and file creation」。
-1. 到本仓库的 [Releases](../../releases) 下载 `college-essay-prompt-analyzer.zip`（或自己把 `college-essay-prompt-analyzer/` 文件夹压缩成 ZIP）。
+1. 下载 [`dist/college-essay-prompt-analyzer.zip`](dist/college-essay-prompt-analyzer.zip)（打开后点 **Download raw file**），或自己把 `college-essay-prompt-analyzer/` 文件夹压缩成 ZIP。
 2. 打开 **Settings → Capabilities**，在 **Skills** 区域点 **Upload skill**，选择这个 ZIP。
 3. 在对话里直接发文书题目即可，Claude 会自动调用这个 Skill。
 
@@ -127,6 +129,8 @@ The skill also tells the AI to **verify** prompt wording and school details (cou
 college-essay-prompt-analyzer/
 ├── college-essay-prompt-analyzer/
 │   └── SKILL.md                  # The skill itself (works with Claude and ChatGPT)
+├── dist/
+│   └── college-essay-prompt-analyzer.zip  # Upload package for claude.ai
 ├── chatgpt/
 │   └── project-instructions.md   # Short instructions to paste into a ChatGPT Project
 ├── examples/
@@ -141,7 +145,7 @@ The skill instructions are written in Simplified Chinese. The AI replies in the 
 
 **Claude on web, desktop, and mobile (claude.ai)**
 Requires a Pro, Max, Team, or Enterprise plan with "Code execution and file creation" turned on.
-1. Download `college-essay-prompt-analyzer.zip` from this repo's [Releases](../../releases), or zip the `college-essay-prompt-analyzer/` folder yourself.
+1. Download [`dist/college-essay-prompt-analyzer.zip`](dist/college-essay-prompt-analyzer.zip) (open it and click **Download raw file**), or zip the `college-essay-prompt-analyzer/` folder yourself.
 2. Open **Settings → Capabilities**, go to **Skills**, click **Upload skill**, and choose the ZIP.
 3. Send an essay prompt in any chat and Claude will use the skill.
 
